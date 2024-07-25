@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionário de Personalidade</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Questionário de Personalidade</h1>
+        <form id="quiz-form">
+            <div class="question">
+                <p>1. Você se considera uma pessoa extrovertida?</p>
+                <label><input type="radio" name="q1" value="A" required> Sim</label>
+                <label><input type="radio" name="q1" value="B"> Não</label>
+            </div>
+            <div class="question">
+                <p>2. Você prefere trabalhar em equipe?</p>
+                <label><input type="radio" name="q2" value="A" required> Sim</label>
+                <label><input type="radio" name="q2" value="B"> Não</label>
+            </div>
+            <div class="question">
+                <p>3. Você se considera uma pessoa organizada?</p>
+                <label><input type="radio" name="q3" value="A" required> Sim</label>
+                <label><input type="radio" name="q3" value="B"> Não</label>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
